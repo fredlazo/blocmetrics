@@ -1,2 +1,7 @@
-<h1>Apps#show</h1>
-<p>Find me in app/views/apps/show.html.erb</p>
+<h1><%= @app.name %></h1>
+
+<ul>
+<% @events.each do |event| %>
+  <li><%= event[0] %>: <%= event[1].size %></li>
+<% end %>
+</ul>
