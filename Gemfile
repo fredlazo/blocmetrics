@@ -25,9 +25,13 @@ source 'https://rubygems.org'
 
  gem 'faker'
 
- gem 'stripe'	
- 
+ gem 'stripe'
+
  gem 'redcarpet'
+
+ gem 'chartkick'
+
+ gem 'groupdate'
 
  # Use SCSS for stylesheets
  gem 'sass-rails', '~> 5.0'
@@ -39,4 +43,3 @@ source 'https://rubygems.org'
  gem 'jquery-rails'
  # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
  gem 'turbolinks'
-

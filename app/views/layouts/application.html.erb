@@ -4,6 +4,7 @@
   <title>Blocmetrics</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+   <%= javascript_include_tag "https://www.google.com/jsapi", "chartkick" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -12,7 +13,7 @@
     <ul class="nav nav-tabs">
       <li><%= link_to "Blocmetrics", root_path %></li>
       <li><%= link_to "Applications", apps_path %></li>
-      
+
       <div class="pull-right user-info">
         <% if user_signed_in? %>
             <div class='glyphicon glyphicon-user lt_blue'></div>
