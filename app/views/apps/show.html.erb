@@ -4,7 +4,6 @@
 <%= pie_chart @app.events.group(:name).count %>
 
 
-
 <ul>
 <% @events.each do |event| %>
   <li><%= event[0] %>: <%= event[1].size %></li>
