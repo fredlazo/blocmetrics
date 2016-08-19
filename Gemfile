@@ -11,7 +11,8 @@ source 'https://rubygems.org'
 
  # #2
  group :development do
-   gem 'sqlite3'
+   #gem 'sqlite3'
+   gem 'pg'
    gem 'pry-rails'
  end
 
